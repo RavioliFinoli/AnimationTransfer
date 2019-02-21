@@ -35,7 +35,9 @@ A tool that transfers animation from one skeleton to another.
 
 <a name="transfer"/>
 
-### Transfer tab
+### Transfer tab 
+
+![](https://i.imgur.com/A0yCmMX.png "Transfer Tab")
 The *Load Source/Target from Root* buttons loads the selected joint and its children. (You'll generally want to select the skeleton root)
 The *Load Source/Target from Selection* add the current selection to the lists. Duplicates are ignored.
 The listed joints can be reordered in case of joint mismatch by dragging/dropping them inside the lists.
@@ -43,8 +45,10 @@ The listed joints can be reordered in case of joint mismatch by dragging/droppin
 <a name="settings"/>
 
 ### Settings tab
+
+![](https://i.imgur.com/A0yCmMX.png "Transfer Tab")
   * **Transfer Range**: The range of frames to transfer. Currently supports time slider and time range. (Let me know if selection is something you'd want in this tool)
   * **Transfer every X frames**: Frame step size of transfer.
   * **Apply Euler Filter**: Whether to apply an Euler filter to the target's curves after transfer. Recommended if step size is greater than one.
   * **Transfer Root Translation**: Whether to transfer the translation of source root to target root. Note that this grabs the real root of each skeleton, not neccessarily the skeleton hierarchy roots.
-![alt text](https://i.imgur.com/4PgV9fD.png "Script in action")
+
