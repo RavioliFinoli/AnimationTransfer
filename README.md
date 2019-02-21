@@ -1,5 +1,11 @@
 # Animation Transfer Tool for Maya
-A tool that transfers animation from one skeleton to another
+A tool that transfers animation from one skeleton to another.
+
+## Table of Contents
+[Notes](#notes)
+
+<a name="notes"/>
+## Notes
   * Takes differences in joint orientation into account.
   * Allows user defined frame steps, as well as the option to apply an Euler filter to the result.
   * *Currently* only supports skeletons with the same number of joints.
