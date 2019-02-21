@@ -38,15 +38,16 @@ A tool that transfers animation from one skeleton to another.
 ### Transfer tab 
 
 ![](https://i.imgur.com/A0yCmMX.png "Transfer Tab")
-The *Load Source/Target from Root* buttons loads the selected joint and its children. (You'll generally want to select the skeleton root)
-The *Load Source/Target from Selection* add the current selection to the lists. Duplicates are ignored.
-The listed joints can be reordered in case of joint mismatch by dragging/dropping them inside the lists.
+  * **Load Source/Target from Root**: Clear the list and loads the selected joint and its children. (You'll generally want to select the skeleton root)
+  * **Load Source/Target from Selection**: Adds the current selection to the lists. Duplicates are ignored.
+  * The listed joints can be reordered in case of joint mismatch by dragging/dropping them inside the lists.
+  * **Transfer**: Starts the transfer. Note that Maya may become unresponsive during the transfer, though progress should be reflected in the progress bar that is shown during transfer.
 
 <a name="settings"/>
 
 ### Settings tab
 
-![](https://i.imgur.com/A0yCmMX.png "Transfer Tab")
+![](https://i.imgur.com/sXXDmez.png "Settings Tab")
   * **Transfer Range**: The range of frames to transfer. Currently supports time slider and time range. (Let me know if selection is something you'd want in this tool)
   * **Transfer every X frames**: Frame step size of transfer.
   * **Apply Euler Filter**: Whether to apply an Euler filter to the target's curves after transfer. Recommended if step size is greater than one.
