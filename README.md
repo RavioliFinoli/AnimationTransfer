@@ -3,6 +3,10 @@ A tool that transfers animation from one skeleton to another.
 
 ## Table of Contents
 [Notes](#notes)
+[Installation](#installation)
+[Usage](#usage)
+  [Transfer Tab](#transfer)
+  [Settings Tab](#settings)
 
 <a name="notes"/>
 
@@ -11,6 +15,8 @@ A tool that transfers animation from one skeleton to another.
   * Allows user defined frame steps, as well as the option to apply an Euler filter to the result.
   * *Currently* only supports skeletons with the same number of joints.
   * The script only takes joint rotations into account (and root translation if desired).
+
+<a name="installation"/>
 
 ## Installation
   * Copy AnimationTransfer.py and animation_transfer.ui to your maya scripts folder (../Documents/maya/VERSION/scripts on Windows)
@@ -22,11 +28,18 @@ A tool that transfers animation from one skeleton to another.
    ```
   * Run that script to open the tool (you probably want to save it to a shelf)
 
+<a name="usage"/>
+
 ## Usage
+
+<a name="transfer"/>
+
 ### Transfer tab
 The *Load Source/Target from Root* buttons loads the selected joint and its children. (You'll generally want to select the skeleton root)
 The *Load Source/Target from Selection* add the current selection to the lists. Duplicates are ignored.
 The listed joints can be reordered in case of joint mismatch by dragging/dropping them inside the lists.
+
+<a name="settings"/>
 
 ### Settings tab
   * **Transfer Range**: The range of frames to transfer. Currently supports time slider and time range. (Let me know if selection is something you'd want in this tool)
