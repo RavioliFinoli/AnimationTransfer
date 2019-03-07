@@ -5,8 +5,8 @@ A tool that transfers animation from one skeleton to another.
 [Notes](#notes)  
 [Installation](#installation)  
 [Usage](#usage)  
-[Transfer Tab](#transfer)  
-[Settings Tab](#settings)  
+  [Transfer Tab](#transfer)  
+  [Settings Tab](#settings)  
   
 
 <a name="notes"/>
