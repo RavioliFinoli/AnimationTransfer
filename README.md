@@ -12,6 +12,7 @@ A tool that transfers animation from one skeleton to another.
 <a name="notes"/>
 
 ## Notes
+  * **Requires the bindpose of both skeletons to be available at frame 0!**
   * Takes differences in joint orientation into account.
   * Allows user defined frame steps, as well as the option to apply an Euler filter to the result.
   * *Currently* only supports skeletons with the same number of joints.
